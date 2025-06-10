@@ -20,7 +20,7 @@ cryptography = "^44.0.1"
 #Pegging flask to < 2.3.3 so pytest-flask 1.2.0 (latest on 10-09-2023) could work
 #https://github.com/pytest-dev/pytest-flask/issues/167
 Flask = {version = "<=2.3.3", optional = true}
-fastapi = {version = "^0.65.2", optional = true}
+fastapi = {version = "^0.115.12", optional = true}
 
 [tool.poetry.extras]
 flask = ["Flask"]
